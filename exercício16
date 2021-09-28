@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>exercício 16</title> 
+    
+    
+  </head>
+<body>
+   <STyle>
+      h1,h2{
+          color:fuchsia;
+          background-color: turquoise;
+      }
+     
+   </STyle>
+    
+    
+<script language="javascript">
+        var conta1,conta2,conta3,conta4,conta5;
+        var conta6,conta7,coonta8,conta9,conta10,estilo;
+        
+        window.alert("Vamos gerar a tabuada do 5");
+       
+         // tabuada do 5
+    
+    document.write("<h2>Tabuada do 5</h2>");
+    document.write("<br>");
+    conta1=(1* 5);
+    conta2=(2 * 5);
+    conta3=(3 * 5);
+    conta4=(4* 5);
+    conta5=(5 * 5);
+    conta6=(6 * 5);
+    conta7=(7* 5);
+    conta8=(8 * 5);
+    conta9=(9 * 5);
+    conta10=(10 * 5);
+    
+    document.write("<h1>5" + " x " + "1" + " = " ,conta1,"</h1>");
+    document.write("<h1>5" + " x " + "2" + " = ",conta2,"</h1>");
+    document.write("<h1>5" + " x " + "3" + " = ",conta3,"</h1>");
+    document.write("<h1>5" + " x " + "4" + " = ",conta4,"</h1>");
+    document.write("<h1>5" + " x " + "5" + " = ",conta5,"</h1>");
+    document.write("<h1>5" + " x " + "6" + " = ",conta6,"</h1>");
+    document.write("<h1>5" + " x " + "7" + " = ",conta7,"</h1>");
+    document.write("<h1>5" + " x " + "8" + " = ",conta8,"</h1>");
+    document.write("<h1>5" + " x " + "9" + " = ",conta9,"</h1>");
+    document.write("<h1>5" + " x " + "10" + " = ",conta10,"</h1>");
+  
+
+    
+       
+
+      
+
+       
+
+    </script>
+  
+</body>
+</html>
