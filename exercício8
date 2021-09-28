@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>exercício 8</title> 
+  </head>
+<body>
+  <STyle>
+    h1
+    {
+        color:fuchsia;
+        background-color: turquoise;
+    }
+  </STyle>
+    <script language="javascript">
+        var grausC, grausF;
+        grausC= window.prompt("Digite o valor da temperatura em graus Celsius");
+        grausC = eval(grausC);
+        grausF= ((grausC)/(5) * (9) +(32));
+       { 
+           document.write("<h1>A temperatura em Fahrenheit é ",grausF, "°</h1>" );
+       }
+      
+     
+
+    </script>
+  
+</body>
+</html>
