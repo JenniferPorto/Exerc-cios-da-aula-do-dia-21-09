@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>exercício 12</title> 
+  </head>
+<body>
+  <STyle>
+    h1{
+        color:fuchsia;
+        background-color: turquoise;
+    }
+   
+ </STyle>
+<script language="javascript">
+        var peso,altura,R;
+        
+        peso = parseFloat(window.prompt("Digite seu peso:"));
+        altura =  parseFloat( window.prompt("Digite sua altura:"));
+        R= peso/ altura*altura
+
+        if  (R < 20)
+       document.write("<h1> Você está abaixo do peso </h1>" );
+       
+      else if (R >=20 && R <= 24)
+      document.write("<h1>Peso ideal</h1>");
+      
+      else (R >= 25)
+      document.write("<h1> Você está acima do peso </h1>" );
+      
+    </script>
+  
+</body>
+</html>
