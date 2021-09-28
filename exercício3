@@ -1,0 +1,25 @@
+# Exerc-cios-da-aula-do-dia-21-09<html>
+  <head>
+    <meta charset="utf-8">
+    <title>exercício 3 </title> 
+  </head>
+<body>
+  <STyle>
+    h1{
+        color:seagreen;
+        background-color:salmon;
+      }
+   
+ </STyle>
+    <script language="javascript">
+        var diagonal, area, lado ;
+        lado  = parseInt( window.prompt("Digite o lado do quadrado"));
+        diagonal = parseInt( window.prompt("Digite o valor da diagonal"));
+        area = lado* 4 * diagonal *2 /2;
+        document.write("<h1>A area do quadrado é de ", area, "</h1>");
+     
+
+    </script>
+  
+</body>
+</html>
