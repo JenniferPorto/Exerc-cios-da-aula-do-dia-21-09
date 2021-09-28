@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>exercício 6</title> 
+  </head>
+<body>
+  <STyle>
+      h1
+      {
+        color:violet;
+        background-color: rgb(224, 75, 64);
+    }
+   
+ </STyle>
+    
+<script language="javascript">
+        var valor1, valor2, media;
+       valor1 =  parseInt(window.prompt("Digite o primeiro valor"));
+      
+       valor2 =  parseInt(window.prompt("Digite o segundo valor"));
+       
+       media = valor1 * valor2;
+       { 
+           document.write("<h1>A média é ", media,"<h1>" );
+       }
+      
+     
+
+    </script>
+  
+</body>
+</html>
