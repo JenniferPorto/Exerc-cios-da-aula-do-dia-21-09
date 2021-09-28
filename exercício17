@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>exercício 17</title> 
+    
+    
+  </head>
+<body>
+   <STyle>
+      h2{
+           color:rgb(80, 136, 78);
+           background-color:wheat;
+       }
+      </STyle>
+    
+<script language="javascript">
+        var valor; 
+        
+       valor=parseInt(window.prompt("Digite um número positivo:"));
+
+       for(i=1; i<=10; i++) 
+       
+        {
+           
+         document.write("<h2>",valor, "X", i, "=",i*valor,"<h2>");
+        
+        }
+           
+            
+        
+       
+  
+    
+  
+
+    </script>
+  
+</body>
+</html>
