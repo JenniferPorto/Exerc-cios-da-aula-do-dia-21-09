@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>exercício 20</title> 
+    
+    
+  </head>
+<body> 
+    <STyle>
+    h2{
+         color:rgb(80, 136, 78);
+         background-color:wheat;
+     }
+    </STyle>
+  
+   
+<script language="javascript">
+     var num1 = 1, num2 = 0;
+      window.alert("Vamos gerar os 30 primeiros valores da sequencia de Fibonacci ");
+
+     
+      document.write(num2);
+      document.write(num1);
+        
+        for(i = 0; i <=28; i++){
+            num1 = num1 + num2;
+            num2 = num1 - num2;
+            document.write("<h2>",num1,"<h2>");
+        }
+       
+    </script>
+  
+</body>
+</html>
