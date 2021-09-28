@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>exercício 13</title> 
+  </head>
+<body>
+  <STyle>
+    h2{
+        color:fuchsia;
+        ;
+    }
+    h1{
+        color:rgb(255, 0, 0);
+        ;
+    }
+
+</STyle> 
+<script language="javascript">
+        var lado1, lado2, lado3;
+       lado1 = parseInt(window.prompt("Digite 1° lado do triângulo"));
+       lado2 = parseInt(window.prompt("Digite 2° lado do triângulo"));
+       lado3 =parseInt( window.prompt("Digite 3° lado do triângulo"));
+        if (
+                lado2 + lado3 > lado1 &&
+                lado1 + lado3 > lado2 &&
+                lado1 + lado2 > lado3
+            )
+            {
+                document.write("<h2>Essa medidas podem formar um triângulo</h2>");
+                
+            if (lado1 == lado2 && lado2 == lado3) 
+                    document.write("<h2> o triângulo é equilátero.</h2>");
+                else if (lado1 == lado2 || lado2 == lado3 || lado1 == lado3)
+                    document.write("<h2> o triângulo é isósceles.</h2>");
+                else 
+                    document.write("<h2> o triângulo é escaleno.</h2>");
+            }
+            else 
+            {
+                document.write("<h1>Essa medidas não formam um triângulo</h1>");
+            }
+
+
+       
+     
+
+    </script>
+  
+</body>
+</html>
